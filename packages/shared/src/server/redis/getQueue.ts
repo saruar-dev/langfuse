@@ -46,6 +46,7 @@ export function getQueue(
     | QueueName.EvaluationExecution
     | QueueName.EvaluationExecutionSecondaryQueue
     | QueueName.LLMAsJudgeExecution
+    | QueueName.TopicsTrace
     | QueueName.CodeEvalExecution
     | QueueName.TraceUpsert
     | QueueName.OtelIngestionQueue
